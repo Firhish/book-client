@@ -1,0 +1,37 @@
+.book-card-container{
+    padding: 4% 15%;
+}
+
+.book-card{
+    display: flex;
+    flex-direction: row;
+    padding-right: 45px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+
+.book-card-click-area{
+    /* background-color: blue; */
+    padding: 30px 45px;
+    width: 90%;
+    /* height: 100%; */
+}
+
+.update-button { 
+    font-size: 14px;  
+    background-color: transparent;
+    /* padding: 3px 12px;  */
+    padding: 8px 16px;
+    height: max-content;
+    border-radius: 30px; 
+    border: 1px solid grey;
+    transition: 0.3s;
+    color: white;
+}
+.update-button:hover {
+    border-radius: 0px; 
+    transform: scale(1.2);
+}

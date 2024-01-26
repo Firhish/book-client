@@ -1,0 +1,26 @@
+.title-container{
+    /* background-color: gold; */
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 18px;
+}
+
+.title{
+    margin: 0;
+}
+
+.custom-button { 
+    font-size: 16px;  
+    background-color: transparent;
+    /* padding: 3px 12px;  */
+    padding: 8px 16px;
+    height: max-content;
+    border-radius: 30px; 
+    border: 1px solid transparent;
+    transition: 0.3s;
+    color: white;
+}
+.custom-button:hover {
+    border-radius: 0px; 
+    transform: scale(1.2);
+}
